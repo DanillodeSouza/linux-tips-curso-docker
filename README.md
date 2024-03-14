@@ -1,5 +1,8 @@
 # linux-tips-curso-docker
 
+## Criando uma imagem básica
+`docker image build -t toskeira:1.0 .`
+
 ## Volumes
 
 `docker volume ls`
