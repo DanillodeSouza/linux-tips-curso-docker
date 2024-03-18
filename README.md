@@ -26,3 +26,9 @@ Subir dois serviços do postgres utilizando o volume
 `docker run -d -p 5432:5432 --name pgsql1 --mount type=volume,src=teste,dst=/data -e POSTGRESQL_USER=docker -e POSTGRESQL_PASS=docker -e POSTGRESQL_DB=docker kamui/postgresql`
 
 `docker run -d -p 5433:5432 --name pgsql2 --mount type=volume,src=teste,dst=/data -e POSTGRESQL_USER=docker -e POSTGRESQL_PASS=docker -e POSTGRESQL_DB=docker kamui/postgresql`
+
+## Images
+
+`docker commit -m "Ubuntu com vim e curl" 3da`
+
+`docker image tag 0c4d48d615b2 ubuntu-with-vim-curl:1.0`
