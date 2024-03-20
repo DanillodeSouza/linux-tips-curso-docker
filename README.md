@@ -32,3 +32,10 @@ Subir dois serviços do postgres utilizando o volume
 `docker commit -m "Ubuntu com vim e curl" 3da`
 
 `docker image tag 0c4d48d615b2 ubuntu-with-vim-curl:1.0`
+
+# Push
+
+`docker image tag 6a3d7011ebb4 danillo/meuapache:1.0.0`
+
+`docker push danillo/meuapache:1.0.0`
+https://hub.docker.com/repository/docker/danillo/meuapache/general
